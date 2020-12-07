@@ -22,7 +22,6 @@ def make_child_map(bag_rules):
 def find_num_descendents(bag, child_map):
     num_descendents = 0
     children = child_map[bag]
-    print(children)
     for child in children:
         num_of_this_child = child[0]
         num_descendents += num_of_this_child
